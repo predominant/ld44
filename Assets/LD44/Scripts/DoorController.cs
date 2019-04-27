@@ -16,7 +16,7 @@ namespace LD44
         {
             if (!other.gameObject.CompareTag("Player"))
                 return;
-            
+
             InterfaceController.Instance.DoorPanel.SetActive(true);
             InterfaceController.Instance.DoorPanel.GetComponent<DoorPanel>().Setup(this);
         }

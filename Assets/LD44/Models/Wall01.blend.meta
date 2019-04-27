@@ -1,22 +1,12 @@
 fileFormatVersion: 2
-guid: 48535a0860325a94f8c7ebf66a57cfc3
+guid: 1261e7a972dd6c944bcaa1db7868d1dc
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: 1989289236423521904
     second: Default Take
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: None__Palette01_png
-    second: {fileID: 2100000, guid: 2faf1b68861ad9f419aa0f84cb229856, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: unnamed
-    second: {fileID: 2100000, guid: db00ebed4767c134d9182256792ae2ec, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -126,7 +116,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
