@@ -14,6 +14,9 @@ namespace LD44
         private float _turnMultiplier = 1f;
         [SerializeField]
         private List<ActionCost> _actionCosts;
+
+        [SerializeField]
+        private Animator _solarPanelAnimator;
         
         [Header("Debugging")]
         [SerializeField]
@@ -120,6 +123,21 @@ namespace LD44
                 move += Vector3Int.right;
 
             return move;
+        }
+
+        public void ToggleSolarPanels()
+        {
+            var action = "solartoggle";
+            var actionCost = this.HasAction(action);
+            if (actionCost == null)
+                return;
+
+            if (!this.HasChargeFor(action))
+                return;
+
+            this.Battery.UseCharge(this.ActionCostFor(action, actionCost));
+            var state = this._solarPanelAnimator.GetBool("Open");
+            this._solarPanelAnimator.SetBool("Open", !state);
         }
     }
 }
