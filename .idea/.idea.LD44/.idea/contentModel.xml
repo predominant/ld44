@@ -22,6 +22,9 @@
             <e p="RobotBatteryIndicator.cs" t="Include" />
             <e p="RobotController.cs" t="Include" />
           </e>
+          <e p="Shaders" t="Include">
+            <e p="3dText.shader" t="Include" />
+          </e>
         </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">

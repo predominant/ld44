@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace LD44
@@ -17,6 +18,40 @@ namespace LD44
 
         [SerializeField]
         private Animator _solarPanelAnimator;
+        [SerializeField]
+        private List<Light> LightObjects;
+        [SerializeField]
+        private Transform DirectionalLightTransform;
+        [SerializeField]
+        private float _chargeRate = 0.4f;
+        
+        private bool _lights;
+
+        private bool Lights
+        {
+            get { return this._lights; }
+            set
+            {
+                this._lights = value;
+                foreach (var light in this.LightObjects)
+                    light.enabled = value;
+            }
+        }
+
+        private float _solarPanelDeployTime = 0f;
+        
+        private bool SolarPanelsActive
+        {
+            get
+            {
+                return this._solarPanelAnimator.GetBool("Open") && this._solarPanelDeployTime + 1f <= Time.time;
+            }
+            set
+            {
+                this._solarPanelAnimator.SetBool("Open", value);
+                this._solarPanelDeployTime = Time.time;
+            }
+        }
         
         [Header("Debugging")]
         [SerializeField]
@@ -39,9 +74,57 @@ namespace LD44
                 this.Battery = this.GetComponent<Battery>();
         }
 
+        private void OnDrawGizmos()
+        {
+            Debug.DrawRay(
+                this.transform.position + Vector3.up * 0.5f,
+                this.DirectionalLightTransform.rotation * -Vector3.forward * 10f,
+                Color.green,
+                1f);
+        }
+
         private void Update()
         {
-            var move = this.MoveInput();
+            if (!this.SolarPanelsActive)
+            {
+                // Can't move when solar panels are out.
+                var move = this.MoveInput();
+                this.ProcessMovement(move);
+            }
+            else
+            {
+                //if (this._solarPanelDeployTime + 1f <= Time.time)
+                
+                // Check for direct sunlight
+                if (!Physics.Raycast(
+                    this.transform.position + Vector3.up * 0.5f,
+                    this.DirectionalLightTransform.rotation * -Vector3.forward,
+                    50f))
+                {
+                    // Charge!
+                    this.Battery.UseCharge(-this._chargeRate);
+                }
+            }
+
+            if (this.Lights)
+            {
+                var action = "light";
+                if (!this.HasChargeFor(action))
+                    this.Lights = false;
+                
+                var actionCost = this.HasAction(action);
+                if (actionCost == null)
+                    return;
+
+                if (this.HasChargeFor(action))
+                {
+                    this.Battery.UseCharge(this.ActionCostFor(action, actionCost));
+                }
+            }
+        }
+
+        private void ProcessMovement(Vector3Int move)
+        {
             if (move.magnitude <= 0.05f)
                 return;
 
@@ -89,7 +172,7 @@ namespace LD44
             if (actionCost == null)
                 return false;
 
-            if (type == "move" && this.Battery.CurrentCharge > 0f)
+            if ((type == "move" || type == "light") && this.Battery.CurrentCharge > 0f)
                 return true;
             
             return this.Battery.CurrentCharge >= this.ActionCostFor(type, actionCost, data);
@@ -136,8 +219,12 @@ namespace LD44
                 return;
 
             this.Battery.UseCharge(this.ActionCostFor(action, actionCost));
-            var state = this._solarPanelAnimator.GetBool("Open");
-            this._solarPanelAnimator.SetBool("Open", !state);
+            this.SolarPanelsActive = !this.SolarPanelsActive;
+        }
+
+        public void ToggleLights()
+        {
+            this.Lights = !this.Lights;
         }
     }
 }

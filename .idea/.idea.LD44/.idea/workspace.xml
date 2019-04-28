@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="62dec52a-8b61-46e3-903f-0e996f0d8e8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD44/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Images/Palette01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Images/Palette01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Bad 01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Bad 01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Good 01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Good 01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Warn 01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Materials/Battery Warn 01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Materials/Ground01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Materials/Ground01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Models/DoorFrame01.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Models/DoorFrame01.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Prefabs/DoorFrame01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Prefabs/DoorFrame01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LD44/Prefabs/Wall01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Prefabs/Wall01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/Lightmap-0_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Scenes/Test1/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,26 +26,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="396">
+              <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
               <folding>
-                <marker date="1556446262013" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556446262013" expanded="true" signature="94:4299" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="145:4297" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="894:1075" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="1106:2259" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="1249:1584" ph="/* Check what action we want to do ... */" />
-                <marker date="1556446262013" expanded="true" signature="1818:2249" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="2310:2552" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="2378:2516" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="2630:2970" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="3065:3330" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="3129:3275" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="3371:3879" ph="{...}" />
-                <marker date="1556446262013" expanded="true" signature="3920:4291" ph="{...}" />
+                <marker date="1556449502979" expanded="false" signature="6:97" ph="..." />
+                <marker date="1556449502979" expanded="true" signature="113:6944" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="164:6942" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="765:1008" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="832:998" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="1107:1449" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="1133:1274" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="1290:1439" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="1877:2058" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="2095:2335" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="2366:3610" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="2417:2591" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="2608:3105" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="2639:2752" ph="/* if (this._solarPanelDeployTime + 1f &lt;= Time.time) ... */" />
+                <marker date="1556449502979" expanded="true" signature="2961:3091" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="3135:3600" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="3466:3586" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="3665:4777" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="3767:4102" ph="/* Check what action we want to do ... */" />
+                <marker date="1556449502979" expanded="true" signature="4336:4767" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="4828:5070" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="4896:5034" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="5148:5509" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="5604:5869" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="5668:5814" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="5910:6418" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="6459:6840" ph="{...}" />
+                <marker date="1556449502979" expanded="true" signature="6876:6936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/LD44/Shaders/3dText.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1556455685007" expanded="true" signature="40:440" ph="{...}" />
+                <marker date="1556455685007" expanded="true" signature="54:146" ph="{...}" />
+                <marker date="1556455685007" expanded="true" signature="160:438" ph="{...}" />
+                <marker date="1556455685007" expanded="true" signature="341:435" ph="{...}" />
+                <marker date="1556455685007" expanded="true" signature="386:431" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/Battery.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
+            <state relative-caret-position="453">
               <caret line="38" column="30" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <marker date="1556350416956" expanded="true" signature="6:123" ph="..." />
@@ -185,6 +224,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/LD44/Shaders/3dText.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LD44/Scripts/Battery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LD44/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -209,6 +249,7 @@
         <option value="$PROJECT_DIR$/Assets/LD44/Scripts/DoorPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/LD44/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs" />
+        <option value="$PROJECT_DIR$/Assets/LD44/Shaders/3dText.shader" />
       </list>
     </option>
   </component>
@@ -302,12 +343,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556334996375</updated>
-      <workItem from="1556335000065" duration="17184000" />
+      <workItem from="1556335000065" duration="21019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17184000" />
+    <option name="totallyTimeSpent" value="21019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,23 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/Battery.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <marker date="1556350416956" expanded="true" signature="6:123" ph="..." />
-            <marker date="1556350416956" expanded="true" signature="139:1178" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="182:1176" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="330:584" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="404:574" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="699:781" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="826:888" ph="{...}" />
-            <marker date="1556350416956" expanded="true" signature="935:1170" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/RobotBatteryIndicator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -508,25 +532,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/Battery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <marker date="1556350416956" expanded="true" signature="6:123" ph="..." />
+            <marker date="1556350416956" expanded="true" signature="139:1178" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="182:1176" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="330:584" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="404:574" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="699:781" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="826:888" ph="{...}" />
+            <marker date="1556350416956" expanded="true" signature="935:1170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LD44/Scripts/RobotController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="396">
+          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
           <folding>
-            <marker date="1556446262013" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556446262013" expanded="true" signature="94:4299" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="145:4297" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="894:1075" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="1106:2259" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="1249:1584" ph="/* Check what action we want to do ... */" />
-            <marker date="1556446262013" expanded="true" signature="1818:2249" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="2310:2552" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="2378:2516" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="2630:2970" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="3065:3330" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="3129:3275" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="3371:3879" ph="{...}" />
-            <marker date="1556446262013" expanded="true" signature="3920:4291" ph="{...}" />
+            <marker date="1556449502979" expanded="false" signature="6:97" ph="..." />
+            <marker date="1556449502979" expanded="true" signature="113:6944" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="164:6942" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="765:1008" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="832:998" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="1107:1449" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="1133:1274" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="1290:1439" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="1877:2058" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="2095:2335" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="2366:3610" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="2417:2591" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="2608:3105" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="2639:2752" ph="/* if (this._solarPanelDeployTime + 1f &lt;= Time.time) ... */" />
+            <marker date="1556449502979" expanded="true" signature="2961:3091" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="3135:3600" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="3466:3586" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="3665:4777" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="3767:4102" ph="/* Check what action we want to do ... */" />
+            <marker date="1556449502979" expanded="true" signature="4336:4767" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="4828:5070" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="4896:5034" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="5148:5509" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="5604:5869" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="5668:5814" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="5910:6418" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="6459:6840" ph="{...}" />
+            <marker date="1556449502979" expanded="true" signature="6876:6936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LD44/Shaders/3dText.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1556455685007" expanded="true" signature="40:440" ph="{...}" />
+            <marker date="1556455685007" expanded="true" signature="54:146" ph="{...}" />
+            <marker date="1556455685007" expanded="true" signature="160:438" ph="{...}" />
+            <marker date="1556455685007" expanded="true" signature="341:435" ph="{...}" />
+            <marker date="1556455685007" expanded="true" signature="386:431" ph="{...}" />
           </folding>
         </state>
       </provider>
